@@ -1,0 +1,1 @@
+Se aplicó muestreo estratificado por temporada para evitar sesgo hacia períodos con mayor cobertura satelital limpia. Este enfoque es estándar en ML sobre datos con cobertura heterogénea.

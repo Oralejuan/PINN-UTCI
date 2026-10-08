@@ -1,0 +1,14 @@
+{
+  "test_mae": 0.04368484599107087,
+  "split_mode": "spatial",
+  "test_rmse": 0.05835695102823566,
+  "test_r2": 0.9996913075447083,
+  "n_train": 142859,
+  "n_val": 44045,
+  "n_test": 32002,
+  "epochs": 500,
+  "batch_size": 16384,
+  "lr": 0.001,
+  "n_samples": 1000000,
+  "weighted_loss": true
+}

@@ -1,0 +1,55 @@
+# ─── Datos crudos (pesados, regenerables) ───
+data/raw/
+data/interim/
+data/processed/
+
+# Pero SÍ incluir el AOI
+!data/aoi/
+!data/aoi/*.geojson
+
+# ─── Modelos entrenados (regenerables) ───
+models/*.pt
+
+# ─── Outputs (mapas, se regeneran) ───
+outputs/*.png
+
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ─── Jupyter ───
+*.ipynb_checkpoints
+
+# ─── Credenciales (¡CRÍTICO!) ───
+.cdsapirc
+*.key
+*.pem
+.env
+credentials.json
+service-account*.json
+
+# ─── Sistema operativo ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Logs y temporales ───
+*.log
+training_log.txt
+training_errors.txt
+*.tmp
