@@ -731,7 +731,7 @@ Si usas este trabajo en tu investigación, por favor cita:
   license      = {MIT},
   url          = {https://github.com/tu-usuario/pinn-utci-aburra}
 }
-
+```
 Proyecto desarrollado como parte de investigación en climatología urbana y machine learning físico para el Valle de Aburrá.
 
 ---
@@ -749,9 +749,7 @@ Proyecto desarrollado como parte de investigación en climatología urbana y mac
 
 Para preguntas, sugerencias o colaboraciones:
 
-- 📧 Email: [tu-email]
-- 🐛 Issues: [enlace a GitHub Issues]
-- 💬 Discussions: [enlace a GitHub Discussions]
+- 📧 Email: manuel9519@hotmail.com
 
 ---
 
