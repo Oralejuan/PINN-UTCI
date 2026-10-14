@@ -699,13 +699,38 @@ Este proyecto está en desarrollo activo. Si quieres contribuir:
 
 ## 📄 Licencia
 
-MIT License — ver [LICENSE](LICENSE) para detalles.
+Este proyecto usa un modelo de licenciamiento dual:
 
----
+| Componente | Licencia | Qué permite |
+|---|---|---|
+| **Código fuente** (`src/`, `config/`) | [MIT](LICENSE) | Uso libre, incluso comercial, con atribución |
+| **Datos derivados, figuras, modelo entrenado** | [CC-BY-4.0](LICENSE-DATA) | Uso libre, incluso comercial, con atribución |
+| **Servicios comerciales** (API en tiempo real, integraciones, soporte) | [Comercial](COMMERCIAL.md) | Requiere acuerdo específico |
 
-## 👤 Autor
+**En resumen:**
+- ✅ Usa el código y el modelo en tu investigación — solo cita el proyecto
+- ✅ Adáptalo a tu ciudad o tu dominio — con atribución
+- ✅ Úsalo en proyectos comerciales internos — con atribución
+- ⚠️ Para **servicios en tiempo real con SLA** (alertas operacionales, integraciones municipales) — contactar para licencia comercial
 
-**Juan Manuel Luna** (2026)
+## 🎯 Uso del modelo entrenado
+
+El checkpoint en `models/pinn_utci_aburra_full.pt` es un modelo entrenado específicamente para el **Valle de Aburrá en el año 2024**. No es transferible directamente a otras regiones o años sin reentrenamiento. Si buscas aplicarlo a otro dominio, contáctanos para asistencia técnica.
+
+## 📖 Cómo citar
+
+Si usas este trabajo en tu investigación, por favor cita:
+
+```bibtex
+@software{luna2026pinn,
+  author       = {Luna, Juan Manuel},
+  title        = {PINN-UTCI Valle de Aburrá: Physics-Informed Neural Network
+                  for Urban Thermal Stress Estimation},
+  year         = {2026},
+  version      = {1.0.0},
+  license      = {MIT},
+  url          = {https://github.com/tu-usuario/pinn-utci-aburra}
+}
 
 Proyecto desarrollado como parte de investigación en climatología urbana y machine learning físico para el Valle de Aburrá.
 
